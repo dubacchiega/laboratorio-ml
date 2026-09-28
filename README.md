@@ -192,30 +192,6 @@ curl -X POST http://127.0.0.1:5000/api/prever/credito \
 
 ---
 
-## 🛠️ Solução de problemas
-
-<details>
-<summary><b>Erro de soquete no Windows</b> (<code>tentativa de acesso a um soquete de uma maneira que é proibida</code>)</summary>
-
-O Windows bloqueou a escuta em `0.0.0.0`. No final do `app.py`, use:
-
-```python
-app.run(host="127.0.0.1", port=int(os.environ.get("PORT", 5000)))
-```
-
-Se a porta 5000 estiver bloqueada, troque por outra, como `8000`.
-
-</details>
-
-<details>
-<summary><b>Erro ao carregar o modelo (.joblib)</b></summary>
-
-Um modelo salvo só é compatível com a mesma versão do scikit-learn que o gerou. Mantenha `scikit-learn==1.9.1`. Se mudar a versão, apague a pasta `models/` e rode `python treinar.py` de novo.
-
-</details>
-
----
-
 ## 📝 Observações
 
 - Os dados são **sintéticos**, gerados com `SEMENTE = 42`, então todos obtêm os mesmos resultados. Não há dados pessoais reais.
