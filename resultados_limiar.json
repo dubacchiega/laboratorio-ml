@@ -1,0 +1,92 @@
+{
+  "treino_cv": [
+    {
+      "limiar": 0.1,
+      "precisao": 0.28709476309226933,
+      "recall": 0.9118811881188119,
+      "fp": 2287,
+      "fn": 89,
+      "custo_total": 4142500
+    },
+    {
+      "limiar": 0.15,
+      "precisao": 0.3333333333333333,
+      "recall": 0.8217821782178217,
+      "fp": 1660,
+      "fn": 180,
+      "custo_total": 3930000
+    },
+    {
+      "limiar": 0.2,
+      "precisao": 0.3875968992248062,
+      "recall": 0.7425742574257426,
+      "fp": 1185,
+      "fn": 260,
+      "custo_total": 3857500
+    },
+    {
+      "limiar": 0.25,
+      "precisao": 0.42819148936170215,
+      "recall": 0.6376237623762376,
+      "fp": 860,
+      "fn": 366,
+      "custo_total": 4218000
+    },
+    {
+      "limiar": 0.3,
+      "precisao": 0.4723404255319149,
+      "recall": 0.5495049504950495,
+      "fp": 620,
+      "fn": 455,
+      "custo_total": 4570000
+    },
+    {
+      "limiar": 0.35,
+      "precisao": 0.5048966267682263,
+      "recall": 0.4594059405940594,
+      "fp": 455,
+      "fn": 546,
+      "custo_total": 5050500
+    },
+    {
+      "limiar": 0.4,
+      "precisao": 0.5341701534170153,
+      "recall": 0.3792079207920792,
+      "fp": 334,
+      "fn": 627,
+      "custo_total": 5517000
+    },
+    {
+      "limiar": 0.5,
+      "precisao": 0.6090225563909775,
+      "recall": 0.24059405940594059,
+      "fp": 156,
+      "fn": 767,
+      "custo_total": 6370000
+    }
+  ],
+  "limiar_recomendado": {
+    "limiar": 0.2,
+    "precisao": 0.3875968992248062,
+    "recall": 0.7425742574257426,
+    "fp": 1185,
+    "fn": 260,
+    "custo_total": 3857500
+  },
+  "teste_limiar_recomendado": {
+    "limiar": 0.2,
+    "precisao": 0.35655737704918034,
+    "recall": 0.6904761904761905,
+    "fp": 314,
+    "fn": 78,
+    "custo_total": 1095000
+  },
+  "teste_limiar_05": {
+    "limiar": 0.5,
+    "precisao": 0.5887850467289719,
+    "recall": 0.25,
+    "fp": 44,
+    "fn": 189,
+    "custo_total": 1578000
+  }
+}
